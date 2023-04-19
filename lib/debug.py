@@ -3,7 +3,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-from models import Movie, Role, Actor, Moviegoer
+from models import Movie, Role
 
 if __name__ == '__main__':
 
