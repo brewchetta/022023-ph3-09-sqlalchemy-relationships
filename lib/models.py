@@ -20,6 +20,19 @@ movie_ticket = Table(
     extend_existing=True,
 )
 
+# MOVIE ---< ROLES
+# one to many
+
+# ACTOR ---< ROLES
+# one to many
+
+# MOVIE >---< ACTOR
+# many to many
+
+# MOVIE ---< ROLES >--- ACTOR
+# roles gets all the foreign keys
+
+
 class Movie(Base):
     __tablename__ = 'movies'
 
