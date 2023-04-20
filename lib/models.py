@@ -1,4 +1,4 @@
-from sqlalchemy import create_engine, func, # Table
+from sqlalchemy import create_engine, func #, Table
 from sqlalchemy import ForeignKey, Table, Column, Integer, String, MetaData
 from sqlalchemy.orm import relationship, backref
 from sqlalchemy.ext.declarative import declarative_base
